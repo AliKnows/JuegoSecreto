@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<head>
+    <title>Cambio de moneda</title>
+    <h1>Cambio de moneda dolares a Reales </h1>
+</head>
+
+
+<script>
+
+let monedaLocal = 0;
+monedaLocal = prompt("Ingrese el monto en dolares: ");
+console.log(monedaLocal);
+let cambio = 4.8;
+console.log(cambio);
+let dolares=0;
+
+
+function cambioMoneda(monedaLocal){
+
+    dolares= monedaLocal * cambio ;
+    return dolares;
+}
+
+
+alert(`el monto de ${monedaLocal} Dolares a Reales es de ${cambioMoneda(monedaLocal)} $ `);
+
+</script>

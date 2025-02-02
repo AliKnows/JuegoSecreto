@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multipicar Tabla</title>
+
+</head>
+<body>
+    <h1>Tabla de multipicar</h1>
+    <br>
+    <p id="TbMul"   class="texto__parrafo"></p>
+    
+</body>
+<script>
+    let numero = 0;
+    numero = prompt("Ingrese el numero: ");
+
+    function asignarTextoElemento(element, texto){
+        let elementoHTML = document.querySelector(element);
+        elementoHTML.innerHTML = texto;
+
+        return;
+    }
+
+    function tablaMulti(numero){
+        let resultado = " ";
+        for (let i = 1; i <=10; i++) {
+            
+            resultado = resultado + ` ${i} x ${numero} = ${ i*numero} <br>`;
+            
+        }
+        
+        asignarTextoElemento('#TbMul', resultado);
+            
+            
+
+
+    }
+    tablaMulti(numero);
+
+
+
+</script>
+
+</html>
