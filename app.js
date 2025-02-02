@@ -100,14 +100,13 @@ function generarNumeroSecreto() {
 function contarIntentos(){
      
   let vezoveces;
-    if(intentos==1){
+    if(intentos==1) ? "vez" : "veces";
+    /*{
 
       vezoveces = "vez";
-
-
      }else{
       vezoveces = "veces";
-     }
+     }*/
 
      return vezoveces;
 }
