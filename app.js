@@ -6,7 +6,7 @@ let intentos = 0;
 let numeroMaximo=10;
 
 //console.log(numeroSecret);
-numeroMaximo= prompt("Indica un numero maximo de intentos:");
+//numeroMaximo= prompt("Indica un numero maximo de intentos:");
 
 
 
