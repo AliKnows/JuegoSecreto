@@ -4,16 +4,11 @@ let numeroSecret=0;
 let listaNumeroSorteado = [];
 let intentos = 0;
 let numeroMaximo=10;
-console.log(numeroSecret);
 
-
-
-//let TITULO= document.querySelector('h1'); //es un objeto
-// TITULO.innerHTML = "Juego secreto numero";
-
-//let parrafo = document.querySelector('p');
-//parrafo.innerHTML = "Indica un Numero del 1 al 10";
+//console.log(numeroSecret);
 numeroMaximo= prompt("Indica un numero maximo de intentos:");
+
+
 
 //funciones
 
@@ -54,7 +49,7 @@ function verificarIntento()
       asignarTextoElemnto('p',`El numero secreto es mayor`);
     }
 
-    //intento = intentos + 1;
+   
     intentos++;
   limpiarCajaTetxo();
   }
