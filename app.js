@@ -96,11 +96,10 @@ function contarIntentos(){
      
   let vezoveces;
     if(intentos==1) {
-
-      vezoveces = "vez";
+        vezoveces = "vez";
      }else{
-      vezoveces = "veces";
-     }*/
+          vezoveces = "veces";
+     }
 
      return vezoveces;
 }
