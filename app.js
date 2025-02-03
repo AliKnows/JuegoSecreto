@@ -95,8 +95,7 @@ function generarNumeroSecreto() {
 function contarIntentos(){
      
   let vezoveces;
-    if(intentos==1) ? "vez" : "veces";
-    /*{
+    if(intentos==1) {
 
       vezoveces = "vez";
      }else{
